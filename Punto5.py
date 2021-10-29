@@ -1,9 +1,12 @@
+# github : https://github.com/NicolasCode/Taller_Parcial_3.git
+
 import numpy as np  # libreria para usar matrices y operaciones matematicas
 import matplotlib.pyplot as plt  # libreria para graficar las funciones
 
 
 def f(x):  # declaracion de la funcion
-    return np.log(x) - (x * np.cos(x))
+    # le restamos 2 a la funcion para trasladarla
+    return (np.log(x) - (x * np.cos(x))) - 2
 
 
 # declaracion del error 10^-3
@@ -121,5 +124,6 @@ print("========================================================")
 print("                        Output")
 print("========================================================")
 print("el valor aproximado de c es: ", pk)
-print("el valor aproximado de f(c) es: ", tpk)
+# le sumamos 2 para obtener el valor de la funcion antes de ser trasladada
+print("el valor aproximado de f(c) es: ", tpk + 2)
 print("========================================================")
