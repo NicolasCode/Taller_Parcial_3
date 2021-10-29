@@ -39,7 +39,7 @@ while bk-ak > error:
 
     # Insercion de una nueva fila a la matriz
     table1.append([count, ak, bk, pk])
-    table2.append([count, tak, tbk, tpk])
+    table2.append([count, tak+2, tbk+2, tpk+2])
 
     # teorema de localizacion de raices aplicado a la mitad del intervalo
     if (tpk * tbk < 0):
