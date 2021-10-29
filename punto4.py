@@ -1,3 +1,5 @@
+# github : https://github.com/NicolasCode/Taller_Parcial_3.git
+
 import numpy as np  # libreria para usar matrices
 
 
